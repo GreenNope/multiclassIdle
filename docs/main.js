@@ -18,7 +18,8 @@ function damageOpponent(damage) {
 }
 
 function newOpponentSpawn () {
-  opponentHP = 1.01^opponentLevel 
+  opponentLevel = opponentLevel + 1
+  opponentHP = 1.01^opponentLevel  * 10
   opponentHPDisplay.innerHTML = opponentHP
   opponentMaxHPDisplay.innerHTML = opponentHP
 }
