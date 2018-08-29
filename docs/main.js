@@ -6,7 +6,7 @@ var opponentLevel = 1
 var opponentHPDisplay = Document.getElementById("opponentHP")
 var opponentMaxHPDisplay = Document.getElementById("opponentMaxHP")
 function class1Select(IDvalue) {
-  print("Class 1: " + classValues[IDvalue] + "(" + IDvalue + ")")
+  console.log("Class 1: " + classValues[IDvalue] + "(" + IDvalue + ")")
 }
 
 function damageOpponent(damage) {
