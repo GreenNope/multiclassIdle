@@ -12,6 +12,9 @@ function class1Select(IDvalue) {
 function damageOpponent(damage) {
   opponentHP = opponentHP - damage
   opponentHPDisplay.innerHTML = opponentHP
+  if (opponentHP <= 0) {
+    newOpponentSpawn()
+  }
 }
 
 function newOpponentSpawn () {
