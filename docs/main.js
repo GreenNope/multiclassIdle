@@ -10,7 +10,7 @@ function class1Select(IDvalue) {
   if (IDvalue = 1) {
     baseDmgValue = baseDmgValue + 1
     damage = baseDmgValue
-    document.getElementById("FighterSelect").parentNode
+    document.getElementById("FighterSelect").parentNode.removeChild(document.getElementById("FighterSelect"))
   }
 }
 
