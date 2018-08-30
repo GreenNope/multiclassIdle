@@ -1,4 +1,4 @@
-classValues = ["Fighter"]
+classValues = ["null","Fighter"]
 var gold = 0
 var xp = 0
 var opponentHP = 10
@@ -19,7 +19,7 @@ function damageOpponent(damage) {
 
 function newOpponentSpawn () {
   opponentLevel = opponentLevel + 1
-  opponentHP = 1.01^opponentLevel  + 10
+  opponentHP = 1.1^opponentLevel  + 10
   opponentHPDisplay.innerHTML = opponentHP.toString()
   opponentMaxHPDisplay.innerHTML = opponentHP.toString()
 }
