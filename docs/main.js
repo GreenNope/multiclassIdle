@@ -7,6 +7,11 @@ var opponentHPDisplay = document.getElementById("opponentHP")
 var opponentMaxHPDisplay = document.getElementById("opponentMaxHP")
 function class1Select(IDvalue) {
   console.log("Class 1: " + classValues[IDvalue] + "(" + IDvalue + ")")
+  if (IDvalue = 1) {
+    baseDmgValue = baseDmgValue + 1
+    damage = baseDmgValue
+    document.getElementById("FighterSelect").parentNode
+  }
 }
 
 function damageOpponent(damage) {
