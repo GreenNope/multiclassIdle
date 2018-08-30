@@ -1,5 +1,6 @@
 classValues = ["null","Fighter"]
 damage = 1
+baseDmgValue = 1
 var gold = 0
 var xp = 0
 var opponentHP = 10
